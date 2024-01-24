@@ -1,0 +1,60 @@
+/*Instagram: @wezmert*/
+/*Github: @wezmert*/
+/*LinkedIn: @wezmert*/
+body{
+    background-image: url("arkaplan.jpg");
+    background-attachment: fixed;
+    background-repeat:round;
+}
+.metin{
+    font-family:'Trebuchet MS';  
+    font-size: 30px;
+    position: absolute;
+    left: 25px;
+    top:-10px;
+    color: white;
+    text-shadow: 1px 1px 10px white;
+}
+.yatay{
+    position: absolute;
+        top: 25px;
+        left: 100px;
+        width: 1350px;
+        height: 55px;
+        opacity: 1;
+        border-radius: 35px;
+        background-color: #000000b5;
+}
+.yataymenu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.yataymenu li{
+    float: left;
+    margin-left:5px;
+
+}
+.yataymenu a{
+    position:relative ;
+    left: 600px;
+    width: 120px;
+    margin-top: 13px;
+    height: 50px;
+    display: block;
+    background-color: transparent;
+    color: #e96d3f;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size:20px;
+    text-align: center;
+    font-family:'Outfit', sans-serif;
+    transition: 0.5s;
+    font-weight: bold;
+
+}
+.yataymenu a:hover{
+    transition: 0.5s;
+    color: white;
+    text-shadow: 1px 1px 10px white;
+}
